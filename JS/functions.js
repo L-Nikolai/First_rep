@@ -36,7 +36,7 @@ const personalMovieDB = {
     privat: false
 };
 
-/*function rememberMyFilms(){
+function rememberMyFilms(){
 
     for (let i = 0; i < 2; i++) {
         const firstQuestion = prompt('Один из просмотренных фильмов?', ''),
@@ -57,11 +57,11 @@ const personalMovieDB = {
         }
     }
     
-} */
+} 
 
-//rememberMyFilms();
+rememberMyFilms();
 
-/*function detectPersonalLevel(){
+function detectPersonalLevel(){
 
     if (personalMovieDB.count < 10) {
         console.log("Просмотрено довольно мало фильмов");
@@ -75,7 +75,7 @@ const personalMovieDB = {
     
 } 
 
-detectPersonalLevel();*/
+detectPersonalLevel();
 
 function showMyDB (hidden){
     if(!hidden){
